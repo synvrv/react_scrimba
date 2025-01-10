@@ -42,7 +42,7 @@ function MyAwesomeNavbar() {
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul>   
                     <form role="search">
                         <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
                     </form>
@@ -52,18 +52,18 @@ function MyAwesomeNavbar() {
     )
 }
 
-/**
- * Challenge:
- * Create your very first custom React component!
- * Call it "MainContent", and have it return a simple
- * h1 element that says "React is great!"
- * 
- * Afterward, render it on the line below MyAwesomeNavbar
- */
+//imperative vanilla
+// function addH1() {
+//     var h1 = document.createElement("h1");
+//     h1.className = "header";
+//     h1.textContent = "this is vanilla JS created element";
+//     document.getElementById("root").appendChild(h1);
+// }
 
 root.render(
     <div>
         <MyAwesomeNavbar />
         <MainContent />
+        <h1 className="header">React is declarative</h1>
     </div>
 )
