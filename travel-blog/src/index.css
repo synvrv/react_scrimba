@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  background: #f55a5a;
+  color: white;
+  padding: 1% 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header > h1 {
+  padding-left: 1%;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+header > img {
+  width: 2%;
+}
