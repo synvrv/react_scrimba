@@ -6,6 +6,8 @@ export default function App() {
         <>
             <Navbar />
             <Entry />
+            <Entry />
+            <Entry />
         </>
     )
 }
